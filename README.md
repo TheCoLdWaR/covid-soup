@@ -19,11 +19,11 @@ import csv <br />
 * What statistics are there ?
 
 -> For countries : Total Cases, Total Deaths, Total Recovered and Last 24 hours statistics.
--> For continents : Total Cases, New Cases, Total Deaths, New Deaths, Total Recovered, New Recovered, Active Cases, Serious(Critical).
+-> For continents : Total Cases, New Cases, Total Deaths, New Deaths, Total Recovered, New Recovered, Active Cases, Serious(Critical).<br />
 
 * How many countries and Continents are there ?
 
--> 195 countries, 6 continents(Europee, North America, Asia, South America, Africa, Oceania).
+-> 195 countries, 6 continents(Europee, North America, Asia, South America, Africa, Oceania).<br />
 -> And World Total Statistics.
 
 * What can i do with this information ? 
