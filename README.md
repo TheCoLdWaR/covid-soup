@@ -3,14 +3,14 @@ Example Project. Get data from worldometer covid statistics with Python Beautifu
 
 
 * Requirements
-from bs4 import BeautifulSoup
-import requests
-import pandas as pd
-import xlwt
-from xlwt import Workbook
-import docx
-from docx.shared import Pt
-import csv
+from bs4 import BeautifulSoup&nbsp;
+import requests&nbsp;
+import pandas as pd&nbsp;
+import xlwt&nbsp;
+from xlwt import Workbook&nbsp;
+import docx&nbsp;
+from docx.shared import Pt&nbsp;
+import csv&nbsp;
 
 * What is the covid-soup ?
  
