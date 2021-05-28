@@ -46,7 +46,7 @@ oceania = tbody.find("tr", attrs= {"data-continent":"Australia/Oceania"})
 # main options
 def options():
 
-    whichOption = input("\n1- Continents\n2- Countries\n3- Which Countries\n4- World Total Stats\n")
+    whichOption = input("Choose One:\n------\n1- Continents\n2- Countries\n3- Which Countries\n4- World Total Stats\n")
     if whichOption == "1":
         writeContinent()
     elif whichOption == "2":
@@ -447,8 +447,11 @@ def writecontinentOptions(continent_name_input,statistic=[]):
         cds.write(8,0,continent_name_input + " " + serious_critical)
         cds.write(8,1,statistic[7])
 
+        file_name = input("Set your file name ...(Example : covid_news.docx)\n")
 
-        wb1.save("file_name_input.xls")
+        wb1.save(file_name)
+
+        print(file_name + "Printing completed succesfully!")
 
     elif input_option == "3":
         # print("Wrong Choice or missing!")
